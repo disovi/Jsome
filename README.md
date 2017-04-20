@@ -152,6 +152,13 @@ If you need to disable the colors:
   jsome.params.colored = false;
 ```
 
+If you want to split your long arrays by lines:
+
+```javascript
+  jsome.params.arrayMaxLen = 50;
+```
+![jsome](examples/arrayMaxLen.png)
+
 When you have a very long json to display, don't make your code blocking... you can enable the asynchronous mode.
 
 ```javascript
@@ -166,8 +173,9 @@ The default value of `params` is:
 
 ```javascript
   jsome.params = {
-      'colored' : true
-    , 'async'   : false
+      'colored'    : true
+    , 'async'      : false
+    , 'arrayMaxLen': 0
   }
 ```
 

@@ -20,8 +20,9 @@ var colors = {
 }
 
 , params = {
-    'colored' : true
-  , 'async'   : false
+    'colored'     : true
+  , 'async'       : false
+  , 'arrayMaxLen' : 0
 }
 
 
